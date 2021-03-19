@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>27C2A943D721E766A72C0934394DEEC97434FFCD063798CB80067E8CF1166D0D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>96232C0C23D760779DB3B7583CF170831E357DE276E36B033E8C416545D20304</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>846b30c3-2c08-4945-8fd2-5ff34b435061_1.0.0.0_x86__4sdaedqydyjdm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>846b30c3-2c08-4945-8fd2-5ff34b435061_4sdaedqydyjdm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>846b30c3-2c08-4945-8fd2-5ff34b435061</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-19T12:39:22.757</Modified>
+      <Modified>2021-03-19T12:57:02.709</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\Practice.exe">
       <PackagePath>entrypoint\Practice.exe</PackagePath>
-      <Modified>2021-03-19T12:39:22.411</Modified>
+      <Modified>2021-03-19T12:57:02.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -102,19 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-19T12:39:22.341</Modified>
+      <Modified>2021-03-19T12:57:02.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\AddContact.xbf">
       <PackagePath>AddContact.xbf</PackagePath>
-      <Modified>2021-03-19T12:39:22.341</Modified>
+      <Modified>2021-03-19T12:57:02.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-19T12:39:22.342</Modified>
+      <Modified>2021-03-19T12:57:02.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\SearchContact.xbf">
       <PackagePath>SearchContact.xbf</PackagePath>
-      <Modified>2021-03-19T12:39:22.342</Modified>
+      <Modified>2021-03-19T12:57:02.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-19T12:08:31.648</Modified>
+      <Modified>2021-03-19T12:48:09.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\Practice\Practice\bin\x86\Debug\Core\Practice.exe">
       <PackagePath>Practice.exe</PackagePath>
-      <Modified>2021-03-19T12:39:22.754</Modified>
+      <Modified>2021-03-19T12:57:02.707</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

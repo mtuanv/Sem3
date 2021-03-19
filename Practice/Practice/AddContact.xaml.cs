@@ -41,11 +41,30 @@ namespace Practice
         }
         private void Addct_Click(object sender, RoutedEventArgs e)
         {
-            var contact = conn.Insert(new Contact
+            string phone1 = textBox1.Text;
+            string id = "";
+            string name = "";
+            string phone = "";
+            int c = 0;
+            var query = conn.Table<Contact>();
+            foreach (var message in query)
             {
-                Name = textBox.Text,
-                Phone = textBox1.Text
-            });
+                if (phone1 == message.Phone)
+                {
+                    textBlock3.Text = "Trùng số điện thoại!";
+                    c = 1;
+                    break;
+                }
+            }
+            if(c == 0)
+            {
+                var contact = conn.Insert(new Contact
+                {
+                    Name = textBox.Text,
+                    Phone = textBox1.Text
+                });
+                textBlock3.Text = "Thêm liên hệ thành công!";
+            }
         }
 
         private void btnHomePage_Click(object sender, RoutedEventArgs e)

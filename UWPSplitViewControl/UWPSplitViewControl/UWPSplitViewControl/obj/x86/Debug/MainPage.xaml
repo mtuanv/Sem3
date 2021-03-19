@@ -76,7 +76,7 @@
                           Margin="10,0,0,0">
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
-                            <Grid x:ConnectionId='8' Background="White" Margin="10" Height="275" Width="200">
+                            <Grid x:ConnectionId='8' Background="White" Margin="10" Height="300" Width="200">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="*"/>

@@ -87,7 +87,6 @@
                                     <TextBlock Text="{x:Bind Subhead}"/>
                                     <TextBlock Text="{x:Bind DateLine}"/>
                                 </StackPanel>
-                                
                             </Grid>
                         </DataTemplate>
                     </GridView.ItemTemplate>

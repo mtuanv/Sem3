@@ -67,8 +67,8 @@ namespace AccuWeather.Models
         public async static Task<WeatherEachDay> GetWeatherEach(string url)
         {
             var http = new HttpClient();
-            var respomse = await http.GetAsync(url);
-            var result = await respomse.Content.ReadAsStringAsync();
+            var response = await http.GetAsync(url);
+            var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(WeatherEachDay));
             var dataStream = new MemoryStream(Encoding.UTF8.GetBytes(result));
             var value = serializer.ReadObject(dataStream) as WeatherEachDay;

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>339fe6cd-a344-432c-924b-a3f5a9e32eac</PackageIdentityName>
     <PackageIdentityPublisher>CN=TienDung</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>5E63C2D23259DA179DB49B4DB5EF68265F79D9500CD562204A8FCD7EBAA4013D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>339fe6cd-a344-432c-924b-a3f5a9e32eac_1.0.0.0_x86__wj3dzff73hhz2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>339fe6cd-a344-432c-924b-a3f5a9e32eac_wj3dzff73hhz2!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-19T02:01:42.280</Modified>
+      <Modified>2021-03-21T10:15:25.024</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\NEWSAPI.exe">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\NEWSAPI.exe">
       <PackagePath>entrypoint\NEWSAPI.exe</PackagePath>
-      <Modified>2021-03-19T02:01:41.983</Modified>
+      <Modified>2021-03-21T10:15:24.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.12\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -698,71 +698,71 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-12-31T03:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\NEWSAPI.xr.xml">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\NEWSAPI.xr.xml">
       <PackagePath>NEWSAPI.xr.xml</PackagePath>
-      <Modified>2021-03-19T01:57:42.181</Modified>
+      <Modified>2021-03-21T10:14:44.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-19T02:01:41.914</Modified>
+      <Modified>2021-03-21T10:15:24.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\ArticleView.xbf">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\ArticleView.xbf">
       <PackagePath>ArticleView.xbf</PackagePath>
-      <Modified>2021-03-19T02:01:41.915</Modified>
+      <Modified>2021-03-21T10:15:24.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-19T02:01:41.915</Modified>
+      <Modified>2021-03-21T10:15:24.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-19T01:19:21.878</Modified>
+      <Modified>2021-03-21T09:46:21.448</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\bin\x86\Debug\Core\NEWSAPI.exe">
+    <AppxPackagedFile Include="C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\bin\x86\Debug\Core\NEWSAPI.exe">
       <PackagePath>NEWSAPI.exe</PackagePath>
-      <Modified>2021-03-19T02:01:42.278</Modified>
+      <Modified>2021-03-21T10:15:25.021</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

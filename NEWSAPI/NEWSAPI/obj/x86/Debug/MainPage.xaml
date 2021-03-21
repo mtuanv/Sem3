@@ -15,7 +15,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <RelativePanel>
-            <Button x:ConnectionId='12' Name="HamburgerButton" 
+            <Button x:ConnectionId='13' Name="HamburgerButton" 
                     RelativePanel.AlignLeftWithPanel="True" 
                     FontFamily="Segoe MDL2 Assets" 
                     Content="&#xE700;"
@@ -25,12 +25,12 @@
                     HorizontalAlignment="Center"
                                                  
                     />
-            <TextBlock x:ConnectionId='13' Name="TitleTextBlock"
+            <TextBlock x:ConnectionId='14' Name="TitleTextBlock"
                        RelativePanel.RightOf="HamburgerButton"
                        FontSize="18"
                        FontWeight="Bold"
                        Margin="20,0,0,0"/>
-            <AutoSuggestBox x:ConnectionId='14' Name="MyAutoSuggestBox"
+            <AutoSuggestBox x:ConnectionId='15' Name="MyAutoSuggestBox"
                             QueryIcon="Find"
                             PlaceholderText="Search"
                             RelativePanel.AlignRightWithPanel="True"
@@ -72,6 +72,8 @@
             <SplitView.Content>
                 <GridView x:ConnectionId='6' Name="NewsItemGrid"
                                                          
+                                                    
+                          IsItemClickEnabled="True"
                           HorizontalAlignment="Stretch"
                           Margin="10,0,0,0">
                     <GridView.ItemTemplate>
@@ -80,6 +82,7 @@
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
                                 <Image Grid.Column="0" Width="200" Height="200">
                                     <Image.Source>
@@ -87,10 +90,16 @@
                                     </Image.Source>
                                 </Image>
                                 <StackPanel Grid.Row="1">
-                                    <TextBlock x:ConnectionId='9'                       />
-                                    <TextBlock x:ConnectionId='10'                      />
-                                    <TextBlock x:ConnectionId='11'                            />
+                                    <TextBlock x:ConnectionId='10'                       />
+                                    <TextBlock x:ConnectionId='11'                      />
+                                    <TextBlock x:ConnectionId='12'                            />
                                 </StackPanel>
+                                <Button x:ConnectionId='9' Content="Save Bookmark" 
+                                        Grid.Row="2" 
+                                        VerticalAlignment="Bottom" 
+                                        HorizontalAlignment="Right"
+                                                            
+                                        />
                             </Grid>
                         </DataTemplate>
                     </GridView.ItemTemplate>

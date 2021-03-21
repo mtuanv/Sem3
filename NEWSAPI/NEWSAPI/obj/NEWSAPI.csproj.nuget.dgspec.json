@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Sem3\\NEWSAPI\\NEWSAPI\\NEWSAPI.csproj": {}
+    "C:\\Users\\User\\Desktop\\Sem3\\NewsAPI\\NEWSAPI\\NEWSAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Sem3\\NEWSAPI\\NEWSAPI\\NEWSAPI.csproj": {
+    "C:\\Users\\User\\Desktop\\Sem3\\NewsAPI\\NEWSAPI\\NEWSAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Sem3\\NEWSAPI\\NEWSAPI\\NEWSAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Sem3\\NewsAPI\\NEWSAPI\\NEWSAPI.csproj",
         "projectName": "NEWSAPI",
-        "projectPath": "C:\\Users\\User\\Desktop\\Sem3\\NEWSAPI\\NEWSAPI\\NEWSAPI.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Sem3\\NewsAPI\\NEWSAPI\\NEWSAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Sem3\\NEWSAPI\\NEWSAPI\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Sem3\\NewsAPI\\NEWSAPI\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

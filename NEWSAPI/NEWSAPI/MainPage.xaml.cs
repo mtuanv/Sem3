@@ -53,14 +53,24 @@ namespace NEWSAPI
         {
             if (Home.IsSelected)
             {
-      
+                NewsItemGrid.Visibility = Visibility.Visible;
                 TitleTextBlock.Text = "Home";
             }
             else if (Bookmark.IsSelected)
             {
-   
+                NewsItemGrid.Visibility = Visibility.Collapsed;
                 TitleTextBlock.Text = "Bookmark";
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MyAutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args)
+        {
+
         }
     }
 }

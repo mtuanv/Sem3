@@ -1,1 +1,1 @@
-C:\Users\User\Desktop\Sem3\NEWSAPI\NEWSAPI\NEWSAPI.csproj;x86
+C:\Users\User\Desktop\Sem3\NewsAPI\NEWSAPI\NEWSAPI.csproj;x86
